@@ -5,11 +5,12 @@ html,body {
 
 body {
 	background-color: #161616;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif !important;
 }
 
 hr{
-	margin: 1px;
+	border-top: 1px solid #8c8b8b;
+	margin: 0;
 }
 
 .navigation {
@@ -75,8 +76,8 @@ hr{
 .profile-pic {
 	width: 40%;
 	text-align: center;
-	animation-name: fade-ledt;
-	animation-duration: 0.7s;
+	animation-name: fade-top;
+	animation-duration: 3s;
 }
 
 
@@ -95,7 +96,7 @@ hr{
 }
 
 .profile-title h1 {
-	font-family: 'Bungee Outline', cursive;
+	font-family: 'Bungee Outline', cursive  !important;
 	font-size: 58px;
 	margin-top: 200px;
 	font-weight: 400;
@@ -116,11 +117,10 @@ hr{
 }
 
 .cv-pic {
-	float: left;
-	width: 280px;
-	margin-right: 20px;
-	margin-top: 12px;
-	margin-bottom: 45px;
+	float: right;
+	width: 220px;
+	margin-left: 20px;
+	margin-bottom: 20px;
 	border-radius: 7%;
 }
 
@@ -129,6 +129,7 @@ hr{
 	font-weight: normal;
 	animation-name: fade-bottom;
 	animation-duration: 1s;
+	margin-bottom: 0;
 }
 
 .main h2 {
@@ -295,7 +296,7 @@ a {
 .profile-pic {
 	width: 40%;
 	text-align: center;
-	animation-name: fade-left;
+	animation-name: fade-bottom;
 	animation-duration: 0.7s;
 	margin: 35px auto;
 }
