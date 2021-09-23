@@ -230,6 +230,7 @@ body::-webkit-scrollbar-thumb
 	margin-bottom: 15px;
 	background-size: contain;
 	overflow: hidden;
+	border-radius: 15px;
 }
 
 .miniatura a {
@@ -242,6 +243,8 @@ body::-webkit-scrollbar-thumb
 	background-color: black;
 	opacity: 0;
 	padding-top: 150px;
+	padding-left: 15px;
+	padding-left: 15px;
 }
 
 .blackbox:hover {
